@@ -136,14 +136,11 @@ img.angela-pic{
 
 .img-card {
     display: flex;
+    flex-direction: column;
     /* flex-wrap: wrap; */
     justify-content: center;
     align-items: center;
     gap: .5rem;
-}
-.img-card  p {
-
-
 }
 
 h3 {

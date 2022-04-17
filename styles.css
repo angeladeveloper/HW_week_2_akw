@@ -7,8 +7,6 @@
     --graident: linear-gradient(210deg, rgba(223, 107, 133, 1) 2%, rgba(187, 46, 123, 1) 32%, rgba(134, 48, 106, 1) 54%, rgba(62, 7, 78, 1) 94%);
     --border-radius: .6rem;
     --box-shadow:  var(--grey-main-clr) 3px 3px 6px;
-
-
 }
 
 body {
@@ -51,17 +49,14 @@ ul.header-list{
 
 
 .header-list li {
-    /* display: inline; */
-    /* flex-direction: row;
-    flex-wrap: wrap; */
+    padding: 15px 35px;
+    height: min-content;
+    border-radius: var(--border-radius);
+    /* Gradient affect */
     background-image: var(--graident);
     background-size: 300%;
     background-position: right;
     transition: ease 500ms;
-
-    padding: 15px 35px;
-    height: min-content;
-    border-radius: var(--border-radius);
 
 }
 

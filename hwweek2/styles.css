@@ -130,8 +130,12 @@ img.angela-pic{
     max-height: max-content;
 }
 
+.survey p {
+    padding: .6rem;
+}
+
 .calculator {
-    max-height: 8rem;
+    max-width: 8rem;
 }
 
 
@@ -147,7 +151,9 @@ img.angela-pic{
 
 }
 
-
+h3 {
+    padding: .5rem;
+}
 img.angela-pic{
     position: relative;
     border-radius: var(--border-radius);
@@ -199,6 +205,10 @@ footer {
 
 .curly-brace-btm {
     width: 6rem;
+}
+
+img.discord-logo {
+    max-width: 60px;
 }
 
 

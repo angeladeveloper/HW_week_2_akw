@@ -212,12 +212,16 @@ img.discord-logo {
 }
 
 
-@media (min-width: 440px) {
+@media (min-width: 730.98px) {
     .main-container {
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr;
     }
 }
-
+@media (min-width: 731px) {
+        .main-container {
+            grid-template-columns: 1fr 1fr;
+        }
+}
 @media (min-width: 1000px) {
     .main-container {
         grid-template-columns: 1fr 1fr 1fr;
